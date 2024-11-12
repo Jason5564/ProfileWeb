@@ -1,0 +1,124 @@
+#Start{
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+#End{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+#center{
+    display: grid;
+    grid-template-rows: 30% 70%;
+    background-color: #333333;
+    padding: 10px;
+}
+
+#photo {
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    z-index: 100;
+    border: 8px #333333 solid;
+    box-sizing: border-box;
+    justify-self: center;
+}
+
+#D{
+    justify-self: center;
+}
+
+#ET{
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 340px;
+    height: 100px;
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #2A475C;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    z-index: 0;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    padding: 10px 10px 10px 160px;
+    margin-top: -150px;
+    margin-left: 50px;
+    font-size: 10px;
+}
+
+#name{
+    color: white;
+    margin-left: 65px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#P{
+    margin-left: 65px;
+    font-size: 10px;
+    color: #ADD9F9;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#Info{
+    display: none;
+}
+
+#infoBlock{
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-top: 70px;
+    justify-self: center;
+}
+
+#Ex{
+    color: #ADD9F9;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#academic{
+    margin: 2%;
+    width: 350px;
+    height: auto;
+    border-radius:10px;
+    box-sizing: border-box;
+    padding: 1px 0 25px 10px;
+}
+
+#AQ{
+    color: #ADD9F9;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#S{
+    font-size: 20px;
+    top: 50px;
+}
+
+#expertise{
+    margin: 2%;
+    font-size: 25px;
+    width: 350px;
+    height: auto;
+    border-radius:10px;
+    box-sizing: border-box;
+    padding: 1px 0 25px 10px;
+}
+
+.bottomBlock{
+    width: 100%;
+    margin-top: 60px;
+}

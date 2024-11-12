@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #333333;
+}
+
+.loginBlock{
+    width: 350px;
+    background-color: #2A475C;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 40px 10px;
+}
+
+.loginForm{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inputBox{
+    height: 20px;
+    border-radius: 6px;
+    padding: 2px 5px;
+    border: 1px #2A475C solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btnSubmit{
+    border: #2A475C;
+    border-radius: 8px;
+    width: 40%;
+    height: 40px;
+    background: #72c487;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.btnSubmit:hover{
+    background-color: #679876;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.collapseBlock{
+    font-family: 'Noto Sans TC', sans-serif;
+    position: relative;
+    color: white;
+    background-color: #2A475C;
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 100;
+}
+
+.collapseBlock:hover{
+    background-color: #375672;
+}
+
+.hideContents{
+    position: relative;
+    display: none;
+    background-color: white;
+    padding: 10px;
+    margin-top: -5px;
+    color: black;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 0;
+    box-sizing: border-box;
+    border-radius: 0 0 8px 8px;
+}
